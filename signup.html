@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background-image: url("cloud-coloured.jpg");
+		background-repeat: no-repeat;
+		
+		background-size: 100% 1000px;
+	}
+#d1{
+			position:absolute;
+			
+			background-color:rgba(0,0,0,0.5);
+			padding-top: 50px;
+			top: 300px;
+			height:500px;
+			right: 300px;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			width: 300px;
+
+
+		}
+#d2{
+			position: absolute;
+			padding-top: -20px;
+			padding-right: 50px;
+			padding-left: 50px;
+			padding-bottom: 50px;
+			top:90px;			
+			color: white;
+			left:-10px;
+		}
+#b1{
+			position: absolute;
+			height: 35px;
+			width: 250px;
+			top:250;px;
+			left: 38px;
+			border-radius: 50px;
+			background-color: #2f97b1;
+			margin-bottom: 20px;
+			border-color: rgba(0,0,0,0.5);
+			font-size: 15px;
+			font-weight: bolder;
+			
+		}
+#b1:hover{
+			background-color: #55bfd9;
+		}
+#d2 input[type="text"],input[type="password"]
+		{
+			border:none;
+			border-bottom: 1px solid white;
+			background: transparent;
+			width: 210px;
+			height: 15px;
+			color: white;
+
+		}
+h4{
+				font-weight: bolder;
+				font-size: 17px;
+			}
+			h1{
+				position: absolute;
+				top:-60px;
+				left: 100px
+			}
+			#h4{
+				position: absolute;
+				left:70px;
+			}
+			#g:hover{
+				color: red;
+			}
+			#g{
+				color:#0c00ff;
+				text-decoration: none;
+			}
+			#abc{
+			height: 60px;
+			width: 60px;
+			position: absolute;
+			top: -30px;
+			right: 130px;
+			border-radius: 50px;
+			
+		}
+</style>
+</head>
+<body>
+<div id="d1">
+<img src="01-500x500.jpg" id="abc">
+<div id="d2">
+<form method="post" action="signup.php"> 
+	<h1>Sign Up!</h1>
+	<h4>Username</h4>
+	<input type="text" name="t1"   placeholder="UserName">
+	<h4>Password</h4>
+	<input type="password" name="t2"   placeholder="Password">
+	<h4>Confirm your Password</h4>
+	<input type="password" name="t3"   placeholder=" Confirm Password">
+	<br><br><br><br>
+	<input type="submit" name="b1" value="Sign-Up!" id="b1" ><br><br>
+	<h4 id="h4">Already a USER? <a href="log.html" id="g">LogIn</a></h4>
+	</form>
+	</div>
+</div>
+</body>
+</html>
+
